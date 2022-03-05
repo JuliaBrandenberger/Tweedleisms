@@ -2,11 +2,10 @@ const quotes = [
   'In a pure function, whenever you call it with the same parameters it will always produce the same outcome',
   'An object is defined by having an internal state',
   'In pure functional programming there is no such thing as state, everything is pure functions',
-  'It wouldn\'t give you a type error in javascript because it isn\'t a typed language',
+  'It wouldn\'t give you a compile time type error in javascript because it isn\'t a statically typed language',
   'The DOM is a tree. Recursion is often a good way to work with trees',
-  'Being able to confidently use recursion marks better programmers',
   'Changing something in a loop is the equivalent of returning something in recursion',
-  'A function returns in finite time'
+  'A function without an infinite loop returns in finite time'
 ];
 
 const quote = document.getElementById("quote");
